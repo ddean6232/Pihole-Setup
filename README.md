@@ -13,5 +13,5 @@ Create Unbound Configuration File - `sudo nano /etc/unbound/unbound.conf.d/pi-ho
 Copy example config - https://docs.pi-hole.net/guides/dns/unbound/  
 Restart Unbound to apply Configuration - `sudo service unbound restart`  
 Disable Forwarding DNS in PiHole  
-Set Custom DNS in PiHole - 127.0.0.1#5335  
+Set Custom DNS in PiHole - `127.0.0.1#5335`  
 Setup local DNS address from the PiHole main menu - `Local DNS`  
